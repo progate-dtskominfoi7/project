@@ -42,8 +42,6 @@ header {
 }
 
 .header-right h2{
-    width: -50px;
-    float : left;
-    margin-left: 140px;
+    line-height: 65px;
 }
 
