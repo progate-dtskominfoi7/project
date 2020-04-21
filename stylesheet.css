@@ -41,7 +41,28 @@ header {
     color: aqua;
 }
 
-.header-right h2{
-    line-height: 65px;
+/*Body*/
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img/back.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
 }
 
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+.container {
+   max-width: 1170px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
