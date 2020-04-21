@@ -1,4 +1,49 @@
-header{
+.header{
     height: 1400px;
     width: 800px;
+    background: aqua;
 }
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+  }
+
+/*Header*/
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+.logo {
+   width: 124px;
+   margin-top: 40px;  
+}
+
+.header-left h1{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: aqua;
+}
+
+.header-right h2{
+    width: -50px;
+    float : left;
+    margin-left: 140px;
+}
+
