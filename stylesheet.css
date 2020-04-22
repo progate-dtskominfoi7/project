@@ -1,47 +1,61 @@
-.header{
+.header {
     height: 1400px;
     width: 800px;
     background: aqua;
 }
 
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
 }
 
-body{
+body {
     font-family: "Lucida Grande";
 }
 
 a {
     text-decoration: none;
-  }
+}
+
 
 /*Header*/
+
 header {
     height: 65px;
     width: 100%;
     background-color: rgba(34, 49, 52, 0.9);
-    position :fixed;
+    position: fixed;
     top: 0;
     z-index: 10;
-  }
-
-.logo {
-   width: 124px;
-   margin-top: 40px;  
 }
 
-.header-left h1{
+.logo {
+    width: 124px;
+    margin-top: 40px;
+}
+
+.header-left h1 {
     width: 120px;
     margin-top: 10px;
     margin-left: 10px;
     color: aqua;
 }
 
+
 /*Body*/
+
 .top-wrapper {
     padding: 180px 0 100px 0;
     background-image: url(img/back.jpg);
@@ -62,24 +76,26 @@ header {
     opacity: 0.7;
     margin-bottom: 3px;
 }
+
 .container {
-   max-width: 1170px;
-   padding: 0 15px;
-   margin: 0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
+
 
 /*Footer*/
 
 footer img {
     width: 125px;
-  }
-  
-  footer p {
+}
+
+footer p {
     color: #b3aeb5;
     font-size: 12px;
-  }
-  
-  footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
-  }
+}
+
+footer {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
