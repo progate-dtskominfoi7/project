@@ -48,6 +48,7 @@ header {
     background-size: cover;
     color: white;
     text-align: center;
+    height: 200px;
 }
 
 .top-wrapper h1 {
@@ -66,3 +67,19 @@ header {
    padding: 0 15px;
    margin: 0 auto;
 }
+
+/*Footer*/
+
+footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
