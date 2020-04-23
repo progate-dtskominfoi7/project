@@ -108,6 +108,13 @@ p {
 }
 
 
+/*Extra 1*/
+
+.values__content {
+    display: flex;
+}
+
+
 /*Footer*/
 
 footer img {
