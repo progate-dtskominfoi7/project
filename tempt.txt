@@ -1,0 +1,47 @@
+<div class="col-sm-4">
+                        <img class="img-thumbnail" src="https://assets.wakelet.com/landing-pages/about/values/cloud-190610.png"  alt="cloud">
+                        <span class="fs--ml fw--m text-center block">Dream big, start small</span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/bulb-190610.png"  alt="bulb">
+                        <span class="fs--ml fw--m text-center block">Be ingenious, use your strengths</span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/startup-190610.png"  alt="startup">
+                        <span class="fs--ml fw--m text-center block">Aim higher, be limitless </span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/balance-190610.png"  alt="balance">
+                        <span class="fs--ml fw--m text-center block">Be open, be honest</span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/heart-190610.png"  alt="heart">
+                        <span class="fs--ml fw--m text-center block">Stay human and have fun </span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/flag-190610.png"  alt="flag">
+                        <span class="fs--ml fw--m text-center block">Take ownership, follow through</span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/clock-190610.png"  alt="clock">
+                        <span class="fs--ml fw--m text-center block">Move fast and break things</span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/group-190610.png"  alt="group">
+                        <span class="fs--ml fw--m text-center block">Always play as a team</span>
+                </div>
+
+                <div class="col-sm-4">
+                        <img class="gb--xl block" src="https://assets.wakelet.com/landing-pages/about/values/help-190610.png"  alt="help">
+                        <span class="fs--ml fw--m text-center block">Be insanely helpful</span>
+                </div>
+
+                <img class="gb--l" src="https://assets.wakelet.com/landing-pages/learn/wave-light-blue.png" alt="wave">
+            <h3>Nilai yang kelompok kami Angkat</h3>
