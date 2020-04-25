@@ -1,6 +1,12 @@
 /* Untuk Tablet */
 
 @media all and (max-width: 1000px) {
+    .navbar-nav {
+        display: none;
+    }
+    .navbar-icon {
+        display: block;
+    }
     .top-wrapper h1 {
         font-size: 32px;
     }
@@ -20,11 +26,11 @@
 /* Untuk Smartphone */
 
 @media all and (max-width: 670px) {
-    .navbar-item {
+    .navbar-nav {
         display: none;
     }
-    .menu-icon {
-        display: block;
+    .navbar-icon {
+        display: inline-block;
     }
     .top-wrapper h1 {
         font-size: 24px;
