@@ -1,6 +1,12 @@
 /* Untuk Tablet */
 
 @media all and (max-width: 1000px) {
+    .navbar-nav {
+        display: none;
+    }
+    .navbar-icon {
+        display: block;
+    }
     .top-wrapper h1 {
         font-size: 32px;
     }
@@ -20,11 +26,11 @@
 /* Untuk Smartphone */
 
 @media all and (max-width: 670px) {
-    .navbar-item {
+    .navbar-nav {
         display: none;
     }
-    .menu-icon {
-        display: block;
+    .navbar-icon {
+        display: inline-block;
     }
     .top-wrapper h1 {
         font-size: 24px;
@@ -43,7 +49,54 @@
     .lesson {
         width: 100%;
     }
-    footer {
-        text-align: center;
+}
+
+
+/*footer Responsive*/
+
+@media only screen and (min-width: 1280px) {
+    .contain {
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1139px) {
+    .contain .social {
+        width: 1000px;
+        display: block;
+    }
+    .social h1 {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .footer .col {
+        width: 33%;
+    }
+    .footer .col h1 {
+        font-size: 14px;
+    }
+    .footer .col ul li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer .col {
+        width: 50%;
+    }
+    .footer .col h1 {
+        font-size: 14px;
+    }
+    .footer .col ul li {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .footer .col {
+        width: 100%;
     }
 }

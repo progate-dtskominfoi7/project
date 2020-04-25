@@ -2,43 +2,65 @@
 <html lang="en">
 
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Project HTML-CSS Kelompok i7</title>
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="jquery/jquery-3.5.0.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- custom CSS-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-       <div class="container"> 
-        <a class="navbar-brand" href="#">DTS KOMINFO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
+    <!-- Navbar Start-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand/logo -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Team Profile</a>
+            </div>
+            <!-- Links -->
+            <div class="container-fluid">
+                
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav float-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+                <span class="fa fa-bars navbar-icon"></span>
+            </div>
         </div>
-      </div>  
     </nav>
+    <!-- Navbar End-->
 
     <!-- Contents -->
-    <div class="jumbotron jumbotron-fluid text-center">
+    <div class="jumbotron jumbotron-fluid text-center" style="margin-top:30px;">
         <div class="container">
             <h1>Kelompok i-7</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
@@ -170,7 +192,7 @@
                         </p>
                     </div>
                 </div>
-            </div>    
+            </div>
         </div>
     </div>
 
@@ -180,13 +202,78 @@
     </section> -->
 </body>
 
-<!-- footer -->
-<footer class="container-fluid bg-dark text-center" style="height: 100px;">
-    <div class="copyright_text" style="color:aliceblue; padding-top: 20px;">
-        <a href="" target="">Team Project i7</a>(2020). Kecuali jika dinyatakan sebaliknya, semua konten di situs ini (terutama teks) disebarluaskan di bawah <a ref="https://creativecommons.org/licenses/by/4.0/" target="_blank">Lisensi Creative Commons Atribusi 4.0 Internasional</a>.
-        Sebagai acuan gaya selingkung dan pedoman bagi para pembaca serta pengguna referensi, mohon dapat mencermati bagian
-        <a href="">Disclaimer</a>.
+<!-- footer start-->
+<div class="footer">
+    <div class="contain">
+        <div class="col">
+            <h1>Tim Pengembang</h1>
+            <ul>
+                <li>Surya</li>
+                <li>Ruslan</li>
+                <li>Sandi</li>
+                <li>Sri</li>
+                <li>Harris</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Layanan Kami</h1>
+            <ul>
+                <li>Fullstack Development</li>
+                <li>DevOps</li>
+                <li>Cloud Computing</li>
+                <li>Mobile Apps</li>
+                <li>Cyber Security</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Team Value</h1>
+            <ul>
+                <li>Tentang Kami</li>
+                <li>Misi</li>
+                <li>Layanan</li>
+                <li>Sosial Media</li>
+                <li>Tetap Terhubung</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Sumber Daya</h1>
+            <ul>
+                <li><a href="https://progate.com">Progate.com</a></li>
+                <li><a href="https://www.w3schools.com/html/default.asp">W3 HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/default.asp">W3 CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/default.asp">W3 Javascript</a></li>
+                <li><a href="https://digitalent.kominfo.go.id/">DTS Kominfo</a></li>
+
+            </ul>
+        </div>
+        <div class="col">
+            <h1>Dukungan</h1>
+            <ul>
+                <li>Hubungi Kami</li>
+                <li>Web chat</li>
+                <li>Open ticket</li>
+            </ul>
+        </div>
+        <div class="col social">
+            <h1>Social</h1>
+            <ul>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+                <li><i class="fab fa-pinterest"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fab fa-linkedin"></i></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
     </div>
-</footer>
+</div>
+
+<div class="bottom-footer container-fluid bg-dark text-center" style="font-size: 12px; color:#999999 ; padding:20px 30px;">
+    <a href="" target="">Team Project DTS-i7</a> (2020). Kecuali jika dinyatakan sebaliknya, semua konten di situs ini (terutama teks) disebarluaskan di bawah <a href="https://creativecommons.org/licenses/by/4.0/" target="">Lisensi Creative Commons Atribusi 4.0 Internasional</a>.
+    Sebagai acuan gaya selingkung dan pedoman bagi para pembaca serta pengguna referensi, mohon dapat mencermati bagian
+    <a href="">Disclaimer</a>.
+</div>
+<!--footer end-->
 
 </html>
