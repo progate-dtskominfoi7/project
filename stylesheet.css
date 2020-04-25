@@ -29,10 +29,13 @@ a {
     text-decoration: none;
 }
 
+
 /*Navbar*/
+
 .fa {
     margin-right: 5px;
-  }
+}
+
 
 /*Header*/
 
@@ -179,6 +182,18 @@ p {
     transition: .1s;
     -webkit-transition: .1s;
     -moz-transition: .1s;
+}
+
+.col li a {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
 }
 
 .clearfix {
